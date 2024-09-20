@@ -1,4 +1,4 @@
-Sure! Here’s a general guide on how to deploy your high-availability load balancer on Linode. You can customize it based on your specific setup.
+Sure! Here’s a general guide on how to deploy your high-availability load balancer on Linode. We will be   customizing it based on  specific setup as we progress.
 
 ---
 
