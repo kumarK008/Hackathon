@@ -4,6 +4,14 @@ Sure! Here’s a general guide on how to deploy your high-availability load bala
 
 ## Deployment Guide on Linode Cloud
 
+### Context/Deployment Figure
+
+https://drive.google.com/file/d/1cjuj35N0M4ikAUnN-izK_VbMaflFMnzG/view?usp=drive_link [INPROGRESS]
+
+![image](https://github.com/user-attachments/assets/dd306968-6fc5-48dd-a044-2e672ab005d7)
+
+
+
 ### Step 1: Create Linode Instances
 
 1. **Log in to your Linode account**.
