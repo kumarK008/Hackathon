@@ -5,6 +5,20 @@
 ### Description
 Welcome to the repository for the High-Availability Load Balancer project, created during the Akamai Hackathon, Sep 2024. Our project aims to set up a robust and scalable load balancer that meets the specifications for traffic management, performance, reliability, logging, security, and programmatic interaction, ensuring high availability for public-facing applications.
 
+### Key Requirement
+
+* Allow traffic only on Port 443 (HTTPS).
+* Valid SSL Certificate to be deployed on Port 443 with automated certificate renewal.
+* Gracefully handle connections on Port 80 (HTTP) and redirect traffic to Port 443 (HTTPS).
+* Ability to handle 50,000 concurrent connections.
+* Automated failover between primary and secondary load balancer VMs (or vice versa).
+* Logging of all activities on the load balancer for a minimum of 1 day, with purging of logs older than 1 day.
+* Securing load balancer VM (VM Hardening).
+* Showcase programmatic interaction with the load balancer VM using Linode APIs.
+* The load balancer should have the capability to define rules at Layer 4 (Network layer) and Layer 7 (Application layer):
+  * At Layer 4: Ability to allow/deny requests based on IP address.
+  * At Layer 7: Ability to look at HTTP cookies and ensure session stickiness is maintained.
+
 ### Features
 - **Traffic Management**: 
   - Allow traffic only on Port 443 (HTTPS) with a valid SSL certificate deployed and automated renewal via Let's Encrypt.
